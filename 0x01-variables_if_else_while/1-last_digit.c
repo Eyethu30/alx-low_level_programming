@@ -1,9 +1,12 @@
-#include <stdio.h>
+#include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/*More headers*/
+/**
+ * Main - print if the number is positive, zero or negative
+ * Description: This program prints "Programming is positive , zero or negative"
+ * Return: 0
+ */
 
-/* betty style doc for function main goes there */
 int main(void)
 {
 	int n;
@@ -23,4 +26,3 @@ int main(void)
 	}
 	return(0);
 }
-
