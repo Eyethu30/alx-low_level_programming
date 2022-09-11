@@ -2,7 +2,7 @@
 /**
  * main - display the alphabet in lowrcase, use putchar to display
  * Description: this program displays all the letters of the alphabet in lowerc
- *
+ *Return: 0
  */
 int main(void)
 {
