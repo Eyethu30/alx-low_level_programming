@@ -18,20 +18,20 @@
 int main(void)
 {
 int n;
-srand(time(0));
+int last;
+last = n % 10;
 
-n = rand() - RAND_MAX / 2;
-if(n > 0)
+if (last > 5)
 {
-	printf("%i is positive\n", n);
+	printf("Last digit of %d is %d and is greater than 5\n", n, last);
 }
-else if (n == 0)
+else if (last == 0)
 {
-	printf("%i is zero\n", n);
+	printf("Last digit of %d is %d and is zero\n", n, last);
 }
-else if (n < 0)
+else
 {
-	printf("%i is negative\n", n);
+	printf("Last digit of %d is %d and is les than 6 and not 0", n, last);
 }
 return (0);
 }
