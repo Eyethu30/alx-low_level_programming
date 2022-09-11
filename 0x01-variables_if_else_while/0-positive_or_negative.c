@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
-*n - print if the number is postive, zero, or negative
+*for - print if the number is postive, zero, or negative
 *Description: using the main function
 *this program prints "Programming is positive, zero, or negative"
 *Return: 0
@@ -21,7 +21,7 @@ else if (n == 0)
 	printf("%d is zero\n", n);
 }
 else
-{				
+{
 	printf("%d is positive\n", n);
 }
 return (0);
