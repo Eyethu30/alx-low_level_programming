@@ -3,7 +3,7 @@
  * main: this function prints all single
  * digit numbers starting from 0 until 10
  * Return: 0
-*/
+ */
 int main(void)
 {
 int a = 0;

@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
- * main: This funtion prints the alphabet in lowercase with exceptions
- * Description: the function prints all alphabet in lowercase
- * except for 'q' and 'e' using the putchar() function
+ *main: This funtion prints the alphabet in lowercase with exceptions
+ *Description: the function prints all alphabet in lowercase
+ *except for 'q' and 'e' using the putchar() function
  *Return: 0
-*/
+ */
 int main(void)
 {
 char a;
