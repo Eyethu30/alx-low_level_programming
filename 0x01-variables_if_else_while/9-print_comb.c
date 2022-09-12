@@ -1,9 +1,9 @@
 #include <stdio.h>
 /*
-*main - prints all possible combinations of single digit numbers
-*Description: Numbers must are separated by ,, followed by a space
-*Numbers are printed in ascending order
-*/
+ *main - prints all possible combinations of single digit numbers
+ *Description: Numbers must are separated by ,, followed by a space
+ *Numbers are printed in ascending order
+ */
 int main(void)
 
 {
