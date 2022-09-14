@@ -5,16 +5,16 @@
  * Description: this program prints the alphabet in lowercase
  * Returns: 0
  */
-int main(void)
-{
 void print_alphabet(void)
 {
 	char alpha;
-	for (alpha = 'a'; alpha >= 'z'; alpha++)
+	for (alpha = 'a'; alpha <= 'z'; alpha++)
 	{
 		putchar(alpha);
 	}
 }
+int main(void)
+{
 print_alphabet();
 putchar('\n');
 return (0);
