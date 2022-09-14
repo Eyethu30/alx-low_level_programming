@@ -1,5 +1,6 @@
+#include <stdio.h>
 #include "main.h"
-#include "holberton.h"
+#include "main.c"
 /**
  *main - chack the code
  *print_alphabet_x10.c: prints the alphabet
