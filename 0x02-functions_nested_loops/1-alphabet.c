@@ -12,10 +12,5 @@ void print_alphabet(void)
 	{
 		putchar(alpha);
 	}
-}
-int main(void)
-{
-print_alphabet();
-putchar('\n');
-return (0);
+
 }
