@@ -6,12 +6,14 @@
  * Description: print _putchar add a new line after
  * Return: 0
  */
+int main (void)
+{
 
 char *s = "_putchar";
-
-int main(void)
-{
 for (;*s;s++)
+{
 	putchar(*s);
+}
+
 return (0);
 }
