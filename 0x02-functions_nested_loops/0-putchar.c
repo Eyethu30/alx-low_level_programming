@@ -13,8 +13,7 @@ char *s = "_putchar";
 for (; *s ; s++)
 {
 	putchar(*s);
-	putchar('\n');
 }
-
+putchar('\n');
 return (0);
 }
