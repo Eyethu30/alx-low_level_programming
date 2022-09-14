@@ -7,13 +7,13 @@
  * Return: 0
  */
 
-char s[] = "_putchar";
-char i;
+char s[9] = "_putchar";
+int i;
 int main(void)
 {
-for (s[0-9];;)
+for (s[9];;)
 {
-	putchar(s[i]);
+	putchar(s[9]);
 	i++;
 }
 return (0);
