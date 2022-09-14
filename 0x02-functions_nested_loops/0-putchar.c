@@ -10,7 +10,7 @@ int main (void)
 {
 
 char *s = "_putchar";
-for (;*s;s++)
+for (; *s ; s++)
 {
 	putchar(*s);
 }
