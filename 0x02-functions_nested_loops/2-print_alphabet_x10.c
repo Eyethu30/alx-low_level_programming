@@ -1,4 +1,5 @@
 #include "main.h"
+#include "holberton.h"
 /**
  *main - chack the code
  *print_alphabet_x10.c: prints the alphabet
