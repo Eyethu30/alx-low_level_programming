@@ -6,13 +6,14 @@
  * Description: print _putchar add a new line after
  * Return: 0
  */
-int main (void)
+int main(void)
 {
 
 char *s = "_putchar";
 for (; *s ; s++)
 {
 	putchar(*s);
+	putchar('\n');
 }
 
 return (0);
