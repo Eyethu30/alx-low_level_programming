@@ -6,21 +6,11 @@
  * Return: 1 or 0
  */
 int _putchar(char c);
-/**
- * print_alphabet - function to print alphabet
- *
- */
+
 void print_alphabet(void);
-/**
- * print_alphabet_x10 - prints alphabet 10 times
- *
- */
+
 void print_alphabet_x10(void);
-/**
- * _islower - prints if c is lower case
- * @c: character to use
- * Return: 1 or 0
- */
+
 int _islower(int c);
 /**
  * _isalpha - prints if character is alphabet
@@ -47,16 +37,9 @@ int _abs(int);
  * Return: last digit of integer
  */
 int print_last_digit(int);
-/**
- * jack_bauer - jack bauer gooo
- *
- */
+
 void jack_bauer(void);
-/**
- * times_table - times this up
- *
- *
- */
+
 void times_table(void);
 /**
  * add - adds stuff up
@@ -102,16 +85,9 @@ int mul(int a, int b);
  *
  */
 void print_numbers(void);
-/**
- * print_most_numbers - prints the numbers
- *
- */
+
 void print_most_numbers(void);
 
-/**
- * more_numbers - prints the numbers
- *
- */
 void more_numbers(void);
 /**
  * print_line - prints a line
@@ -120,8 +96,6 @@ void more_numbers(void);
  */
 void print_line(int n);
 /**
- * print_diagonal - prints diagonal
- *
  * @n: integer to see how many stupid lines
  */
 void print_diagonal(int n);
@@ -142,4 +116,4 @@ void print_triangle(int size);
  * @n: integer to print to char
  */
 void print_number(int n);
-#endif
+#endif 
