@@ -10,13 +10,10 @@
 
 int main()
 {
-	void reset_to_98(int *n);
-	{
-		int *n;
-		_putchar("Please enter a value to be changed to 98 %d \n", *n);
-		scanf("%d", *n);
-		*n = 98;
-		_putchar(*n);
-	}
+void reset_to_98(int *n)
+{
+	*n = 98;
+	_putchar(*n);
+}
 return(0);
 }
