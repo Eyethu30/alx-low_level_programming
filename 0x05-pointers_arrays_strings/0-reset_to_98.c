@@ -5,15 +5,11 @@
  * main - This function writes a pointer that
  * void reset_to_98(int *n); This function takes a pointer as a parameter
  * Return: 0 
+ * @n: int type variable
  */
 
 
-int main()
-{
 void reset_to_98(int *n)
 {
 *n = 98;
-_putchar(*n);
-}
-return(0);
 }
