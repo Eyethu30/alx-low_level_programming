@@ -9,6 +9,6 @@
 
 int _strlen(char *s)
 {
-  scanf("%c", *s)
+  scanf("%c", s)
 return (strlen(*s));
 }
