@@ -1,6 +1,6 @@
 #include "main.h"
 #include <stdio.h>
-
+#include <string.h>
 /**
  *char *s - is a pointer variable
  *int _strlen(char *s) - is supposed to print the length of a string 
@@ -9,7 +9,6 @@
 
 int _strlen(char *s)
 {
-char *s;
 char len;
 *s = "This is a random string";
 len = strlen(*s);
