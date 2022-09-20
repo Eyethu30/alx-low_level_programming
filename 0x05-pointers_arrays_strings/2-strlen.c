@@ -7,7 +7,7 @@
  *return - the funtion will return the length of the len string
  */
 
-int _strlen(char *s);
+int _strlen(char *s)
 {
 char *s;
 char len;
