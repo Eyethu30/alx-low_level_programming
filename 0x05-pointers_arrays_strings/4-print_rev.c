@@ -6,7 +6,7 @@
  * @s: pointer variable
  */
 
-void print_rev()
+void print_rev(char *s)
 {
   strrev(s);
   puts(s);
