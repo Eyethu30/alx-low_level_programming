@@ -6,7 +6,7 @@
  * @str: - variable containing string
  */
 
-void _puts();
+void _puts()
 {
   puts(str);
 }
