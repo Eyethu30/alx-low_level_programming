@@ -1,7 +1,6 @@
 #include <stdio.h>
 /**
- * void _puts(): - main funtion that displays string
- * _puts: - funtion used to display to the stdout
+ * _puts - prints string
  * @str: - variable containing string
  */
 
