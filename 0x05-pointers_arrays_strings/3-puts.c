@@ -6,8 +6,7 @@
  * @str: - variable containing string
  */
 
-void _puts()
+void _puts(char *str)
 {
-  char *str;
   puts(str);
 }
