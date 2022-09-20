@@ -10,7 +10,6 @@
 int _strlen(char *s)
 {
 char len;
-*s = "This is a random string";
 len = strlen(*s);
 return (len);
 }
