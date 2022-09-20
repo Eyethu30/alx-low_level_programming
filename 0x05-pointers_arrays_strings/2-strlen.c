@@ -10,5 +10,5 @@
 int _strlen(char *s)
 {
   scanf("%c", s);
-return (strlen(*s));
+return (strlen(s));
 }
