@@ -8,7 +8,7 @@
  * return - the funtion will return the length of the len string
  */
 
-int _strlen(char *s)
+int _strlen(char *s) /*declare a a funtion _strlen*/
 {
 scanf("%c", s);
 return (strlen(s));
