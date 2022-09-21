@@ -14,6 +14,6 @@ while (*(src + ss) != '\0')
 *(dest + ss) = *(src + ss);
 ss++;
 }
-*(dest + ss) = '\0';  
+*(dest + ss) = '\0';
 return (dest);
 }
