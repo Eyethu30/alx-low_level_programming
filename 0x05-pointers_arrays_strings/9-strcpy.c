@@ -12,7 +12,7 @@ int ss = 0;
 while (*(src + ss) != '\0')
 {
   *(dest + ss) = *(src + ss);
-  i++;
+  ss++;
 }
   *(dest + ss) = '\0';
   
