@@ -22,4 +22,3 @@ s[i] = s[fcounter];
 s[fcounter] = rev;
 }
 }
-Footer
