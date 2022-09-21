@@ -22,4 +22,3 @@ printf("%d", a[inc]);
 }
 putchar(10);
 }
-Footer
