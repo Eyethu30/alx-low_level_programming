@@ -1,17 +1,19 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
- * print_chessboard - print chessboard
- * @a: pointer to an the chess board 
- * Return: void
+ * print_diagsums - description
+ * @a: 2d array of int types
+ * @size: size of array (square)
  */
-void print_chessboard(char (*a)[8])
+void print_diagsums(int *a, int size)
 {
-int row, col;
-for (row = 0; row < 8; ++row)
+int t, tot1 = 0, tot2 = 0;
+for (t = 0; t < size; t++)
 {
-for (col = 0; col < 8; ++col)
-_putchar(a[row][col]);
-_putchar('\n');
+tot1 += a[t];
+tot2 += a[size - t - 1];
+a += size;
 }
+printf("%d, ", tot1);
+printf("%d\n", tot2);
 }
