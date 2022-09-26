@@ -2,12 +2,11 @@
 #include <main.h>
 
 /**
- * This function will fill memory with constant byte
- * memset - the name of the funtion which is a pointer
- * @s: argument 1
- * @b: argument 2
- * @n: argument 3
- * Returns pointer to memory area *s
+ * _memset - this function fills memory block with a constant byte
+ * @s: pointed destination
+ * @b: constant byte
+ * @n: byte
+ * Return: Always 0 (success)
  */
 
 char *_memset(char *s, char b, unsigned int n);
