@@ -12,7 +12,7 @@ return;
 }
 else
 {
-_print_rev_recursion(*s);
+_print_rev_recursion(s);
 _putchar('\n');
 _putchar(*s);
 s--;
