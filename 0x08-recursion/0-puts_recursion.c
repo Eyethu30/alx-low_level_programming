@@ -7,6 +7,8 @@
  * return: void
  */
 
-void _puts_recursion() {
-    puts(*s);
+void _puts_recursion() 
+{
+    _putchar(*s);
+    _putchar('\n');
 }
