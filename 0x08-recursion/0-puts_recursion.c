@@ -7,8 +7,8 @@
  * return: void
  */
 
-void _puts_recursion(char *s)
+void _puts_recursion()
 {
-    char* s = "This is a string";
+    char *s = "This is a string";
     puts(s);
 }
