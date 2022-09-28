@@ -5,6 +5,7 @@
 */
 
 void _puts_recursion() /*This is a funtion declaration*/
+
 {
 scanf("%c", *s)
 puts(*s); /*This is supposed to print the string pointed to by s*/
