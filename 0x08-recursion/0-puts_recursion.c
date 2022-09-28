@@ -8,6 +8,5 @@
  */
 
 void _puts_recursion() {
-    char *s = "This is a string";
-    puts(s);
+    puts(*s);
 }
