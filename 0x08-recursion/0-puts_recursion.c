@@ -5,13 +5,14 @@
 * @s: string paramenter
 */
 void _puts_recursion(char *s)
+{ 
+char i;
+
+_putchar(s[i]);
+
+for(i++, i != '\0',,)
 {
-	if (*s == '\0')
-	{
-		_putchar('\n');
-		return;
-	}
-	_putchar(*s);
-	s++;
-	_puts_recursion(s);
+_puts_recursion();
+
+}
 }
