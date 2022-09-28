@@ -9,7 +9,7 @@ char i;
 
 _putchar(s[i]);
 
-for(i++, i != '\0',,)
+for(, i != '\0', i++)
 {
 _puts_recursion();
 }
