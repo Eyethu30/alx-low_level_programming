@@ -12,10 +12,10 @@ int _strlen_recursion(char *s)
 {
     char i;
     int the_len;
-    char *s[];
-    for (i = 0, i != '\0', i++)
+    char s[];
+    for (i = 0, i != '\0', i++);
     {
         _putchar(s[i]);
-        
+
     }
 }
