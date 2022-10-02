@@ -13,6 +13,6 @@ int main(int argc, char const *argv[])
 {
 int __attribute__((unused)) argc;
 int i;
-_putchar("System name: %s", argv[0]);
+_putchar("System name: %s", argv);
 return (0);
 }
