@@ -11,6 +11,6 @@
 
 int main(int argc __attribute__((unused)), char const *argv[])
 {
-_putchar("System name: %s", *argv);
+_putchar("System name: %s\n", *argv);
 return (0);
 }
