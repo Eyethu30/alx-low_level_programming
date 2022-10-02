@@ -9,10 +9,8 @@
  * Return: Always 0 (Success)
  */
 
-int main(int argc, char const *argv[])
+int main(int argc __attribute__((unused)), char const *argv[])
 {
-int __attribute__((unused)) argc;
-int i;
-_putchar("System name: %s", argv);
+_putchar("System name: %s", *argv);
 return (0);
 }
