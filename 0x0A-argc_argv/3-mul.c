@@ -12,8 +12,8 @@ int main(int argc, char* argv[])
 {
 for(,argc > 2,)
 {
-    scanf("%d",argv[1]);
-    scanf("%d",argv[2]);
+    scanf("%d",*argv[1]);
+    scanf("%d",*argv[2]);
     result = argv[1]*argv[2];
     printf("%i\n", result);
 }
