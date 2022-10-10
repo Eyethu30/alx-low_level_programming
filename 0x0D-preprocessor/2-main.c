@@ -1,13 +1,13 @@
 #include <stdio.h>
 #include "main.h"
+#include <_putchar>
 /**
- * main - the main function
- * Return 0 
- * 
-*/
+ * main - Entry point
+ * Description: Prints file name
+ * Return: Always 0
+ */
 int main(void)
-
 {
-    _putchar("%s\n", __FILE__);
-    return (0);
+_putchar("%s\n", __FILE__);
+return (0);
 }
