@@ -10,6 +10,6 @@
 int main(void)
 
 {
-    _putchar("%s\n", MSTRING);
+    _putchar("%s\n", __FILE__);
     return(0);
 }
