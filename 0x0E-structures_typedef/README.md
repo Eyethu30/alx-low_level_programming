@@ -1,0 +1,1 @@
+dog.h file - defines a new struct type "struct dog"
