@@ -10,7 +10,7 @@ int sum_them_all(const unsigned int n, ...);
 {
 va_list mynumbers;
 int sum_result = 0;
-
+unsigned int i;
 if (n == 0)
 {
     return (0);
@@ -18,7 +18,7 @@ if (n == 0)
 
 va_start (mynumbers, n);
 
-for(va_arg(mynumbers,int) = 0, va_arg(mynumbers,int) < n, va_arg(mynumbers,int)++)
+for(i  = 0, i < n, i++)
 {
     sum_result+ = va_arg(mynumbers, int);
 }
