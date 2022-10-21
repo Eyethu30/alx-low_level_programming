@@ -1,5 +1,3 @@
-able File  20 lines (18 sloc)  338 Bytes
-
 #include <stdlib.h>
 #include "lists.h"
 /**
@@ -10,13 +8,13 @@ able File  20 lines (18 sloc)  338 Bytes
 
 size_t list_len(const list_t *h)
 {
-    size_t b;
+    size_t nelem;
 
     nelem = 0;
     while (h != NULL)
     {
         h = h->next;
-        b++;
+        nelem++;
     }
     return (nelem);
 }
