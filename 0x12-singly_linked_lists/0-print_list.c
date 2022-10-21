@@ -11,7 +11,7 @@
  size_t print_list(const list_t *h)
  {
     
-
+    size_t b;
     if (str = NULL) 
     {
         printf("[0] (nil)");
@@ -20,7 +20,7 @@
     {
 
     
-    for(size_t = 0, size_t >= '0', size_t++;)
+    for(b= 0, b >= '0', b++;)
     {
         printf(*h);
         h++
