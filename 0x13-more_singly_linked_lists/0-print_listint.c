@@ -1,25 +1,22 @@
 #include <stdlib.h>
+
+#include "lists.h"
 #include <stdio.h>
-#include "list.h"
-#include <string.h>
-
 /**
- * 
- * main - the start of compilation of code
- * @h: print_listint argument
- * print_listint - the funtion will list all the elements
- * Return 0 Always
+ *print_listint- a function that list all elemnts of list_t
+ *@h: The listint_t list
+ *Return: the number of nodes in h
  */
-
-
-size_t print_listint(const listint_t *h);
+size_t print_listint(const listint_t *h)
 {
-    size_t num_nodes = 0;
+	size_t nodes = 0;
 
-    while(h != NULL)
-    {
-        _putchar("%i\n", h.n);
-        num_nodes++;
-    }
-return (num_nodes);
+	while (h)
+	{
+
+		printf("%d\n", h->n);
+		nodes++;
+		h = h->next;
+	}
+	return (nodes);
 }
