@@ -1,18 +1,16 @@
-#ifndef LIST_
-#define LIST_
-#include <unistd.h>
+
+#ifndef LISTS_H
+#define LISTS_H
+#include <stdlib.h>
 
 /**
- * _putchar - writes the character c to stdout
- * @c: The character to print
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
+ * struct listint_s - singly linked list
+ * @n: integer
+ * @next: points to the next node
+ *
+ * Description: singly linked list node structure
+ * for Holberton project
  */
-int _putchar(char c)
-{
-	return (write(1, &c, 1));
-}
-
 typedef struct listint_s
 {
 	int n;
