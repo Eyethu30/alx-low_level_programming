@@ -1,0 +1,1 @@
+This directory contains Bit Manipulation tasks and will soon be updated.
