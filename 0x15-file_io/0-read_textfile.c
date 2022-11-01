@@ -9,14 +9,14 @@
  */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
-	int fn;
-	ssize_t num, nwr;
+	int fd;
+	ssize_t nrd, nwr;
 	char *buf;
 
 	if (!filename)
 		return (0);
 
-	fn = open(filename, O_RDONLY);
+	fd = open(filename, O_RDONLY);
 
 	if (fd == -1)
 		return (0);
@@ -26,12 +26,11 @@ ssize_t read_textfile(const char *filename, size_t letters)
 		return (0);
 
 	nrd = read(fd, buf, letters);
-	nwr = write(STDOUT_FILENO, buf, num);
+	nwr = write(STDOUT_FILENO, buf, nrd);
 
-	close(fn);
+	close(fd);
 
 	free(buf);
 
 	return (nwr);
-
 }
