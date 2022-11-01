@@ -9,33 +9,32 @@
 
 int create_file(const char *filename, char *text_content);
 {
-    char i;
-    int count;
+    char nt;
+    int numLet;
     if (filename == NULL)
     {
         return (-1);
     }
     if (text_content == NULL)
     {
-        open(filename, O_WRONLY);
+        create(filename, O_RDWR);
     }
-    if (filename)
-    {
-    for (fn[i])
-    {
-        if (fn[i] != '/0')
+    if(filename)
+        if(text_content)
         {
-            count = 0;
-            count++;
+            file *fn;
+            open(filename, O_RDWR);
+            nt = text_content + '/0';
+            for (numLet = 0, text_content[numLet], numLet++)
+            {
+                written = write(fn, nt, numLet);
+            }
+            if (written == -1)
+            {
+                return (-1);
+            }
         }
-    }
-    open(filename, O_RDWR);
-    filename *fn;
-    write(fn, text_content, count)
-    return (1)
-    }
-    else 
-    {
-        return (-1);
-    }
+        close(fn);
+
+	return (1);
 }
